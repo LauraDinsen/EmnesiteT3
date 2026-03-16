@@ -1,0 +1,52 @@
+.beskeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 20px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+}
+.venstre {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.besked {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 2px rgb(6, 6, 17) solid;
+  border-radius: 5px;
+}
+
+/* .messagetext {
+  display: grid;
+  grid-template-rows: 1fr 1fr; */
+/* } */
+.højre {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 40px;
+}
+img {
+  width: 100px;
+}
+.menu2 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  letter-spacing: 2px;
+
+  @media (max-width: 800px) {
+    gap: 20px;
+  }
+}
+header {
+  background-color: antiquewhite;
+  padding: 30px;
+}

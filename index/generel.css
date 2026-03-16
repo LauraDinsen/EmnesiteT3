@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Happy Monkey";
+  src: url(Fonts/HappyMonkey-Regular.woff);
+}
+
+.bio {
+  font-family: "Happy Monkey";
+}
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
