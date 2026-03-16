@@ -1,0 +1,74 @@
+.profilclass {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+@media (max-width: 700px) {
+  .profilclass {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fotogalleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .fotogalleri {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.menu2 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 800px) {
+  .menu2 {
+    gap: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: antiquewhite;
+  padding: 30px;
+}
+
+p {
+  line-height: 30px;
+  font-size: larger;
+  margin: 40px;
+  padding: 50px;
+}
+
+.bio {
+  border: 2px rgb(6, 6, 17) solid;
+  border-radius: 5px;
+}
+
+.felixfoto {
+  margin-left: 60px;
+}
+
+h2 {
+  text-align: center;
+}
